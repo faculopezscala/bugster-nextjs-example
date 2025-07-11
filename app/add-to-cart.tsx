@@ -24,8 +24,7 @@ export function AddToCart() {
         track('add_to_cart:clicked');
         await addToCart({ id: 'shirt', color, size, quantity: 1 });
         router.push('/cart');
-        //check bugster integration
-      }}
+     }}
     />
   );
 } 

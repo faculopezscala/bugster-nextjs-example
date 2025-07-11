@@ -1,0 +1,11 @@
+name: Summer sale banner visibility and interaction
+page: /
+page_path: app/page.tsx
+task: Verify the summer sale banner is visible and interactive
+steps:
+- Navigate to the homepage
+- Locate the summer sale banner
+- Verify sale information is correctly displayed
+- Interact with any buttons or links in the banner
+- Verify appropriate response to interaction
+expected_result: Summer sale banner displays correctly and can be interacted with

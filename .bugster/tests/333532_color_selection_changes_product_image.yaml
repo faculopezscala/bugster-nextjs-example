@@ -1,0 +1,10 @@
+name: Color selection changes product image
+page: /
+page_path: app/page.tsx
+task: Verify selecting different colors updates the product image
+steps:
+- Navigate to the homepage
+- Observe the initial product image
+- Select a different color option
+- Verify the product image changes to show the product in the selected color
+expected_result: Product image changes to reflect the selected color

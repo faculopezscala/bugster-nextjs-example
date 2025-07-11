@@ -1,0 +1,13 @@
+name: Update product quantity in cart
+page: cart
+page_path: app/cart/page.tsx
+task: Verify users can update the quantity of items in their cart
+steps:
+- Add a product to cart from the homepage
+- Navigate to the cart page
+- Find the quantity selector for the cart item
+- Increase the quantity by one
+- Verify the quantity has been updated
+- Verify the cart total price has been updated accordingly
+expected_result: The quantity should be updated and cart total should reflect the
+  change

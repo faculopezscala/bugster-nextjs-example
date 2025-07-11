@@ -1,0 +1,11 @@
+name: Proceed to checkout from cart page
+page: cart
+page_path: app/cart/page.tsx
+task: Verify users can proceed to checkout from the cart page
+steps:
+- Add a product to cart from the homepage
+- Navigate to the cart page
+- Verify the 'Proceed to Checkout' button is visible
+- Click the 'Proceed to Checkout' button
+- Verify the checkout process begins
+expected_result: User is directed to the checkout process

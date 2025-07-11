@@ -1,0 +1,5 @@
+base_url: http://localhost:3000
+credentials: []
+project_id: O0QdJvpOlhKg1h65mlwx
+project_name: bugster-nextjs-example
+x-vercel-protection-bypass: 'WomLYpGCtW4jPpUwbRv0pzZ8Y3zgUhkz'

@@ -1,0 +1,14 @@
+name: Size availability indication
+page: /
+page_path: app/page.tsx
+task: Verify size availability is correctly indicated
+steps:
+- Navigate to the homepage
+- Locate the size picker section
+- Observe which sizes are marked as available or unavailable
+- Attempt to select an unavailable size
+- Verify that unavailable sizes cannot be selected
+- Select an available size
+- Verify it can be selected successfully
+expected_result: Available sizes are selectable while unavailable sizes are disabled
+  or marked

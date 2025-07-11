@@ -1,0 +1,13 @@
+name: View order summary in cart
+page: cart
+page_path: app/cart/page.tsx
+task: Verify users can view the order summary in the cart page
+steps:
+- Add multiple products to cart from the homepage
+- Navigate to the cart page
+- Locate the order summary section
+- Verify subtotal matches the sum of all items
+- Verify shipping costs are displayed
+- Verify taxes are calculated correctly
+- Verify the total amount is the sum of subtotal, shipping, and taxes
+expected_result: Order summary shows correct subtotal, shipping, taxes, and total

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "timestamp": 1752256854938,
+    "timestamp": 1752271165315,
     "version": 2,
     "git": {
       "branch": "main",
-      "commit": "e5a609bae1dd6c284cad0c163cc5a9ecbe4dbe38"
+      "commit": "e3cf3692d82ecbecd44e6b1e84f166c59e830c6f"
     }
   },
   "data": {
@@ -12,7 +12,7 @@
       {
         "id": "next",
         "name": "Next.js",
-        "dir_path": "/Users/giovaborgogno/repos/bugster/shirt-shop-example/"
+        "dir_path": "/Users/facundolopezscala/coding-repos/demo-bugster-ecommerce/bugster-nextjs-example/"
       }
     ]
   }

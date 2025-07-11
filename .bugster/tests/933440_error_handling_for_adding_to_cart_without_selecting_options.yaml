@@ -7,6 +7,7 @@ steps:
 - Do not select any color option
 - Do not select any size option
 - Click the 'Add to cart' button
-- Verify error message appears indicating required selections
-expected_result: User receives error notification when attempting to add product without
-  selecting required options
+- Verify no error message appears
+- Verify user is redirected to the '/cart' page
+expected_result: User is redirected to the cart page without any error notification,
+  even when attempting to add product without selecting required options

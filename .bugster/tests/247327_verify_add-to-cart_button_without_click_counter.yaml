@@ -1,0 +1,16 @@
+name: Verify add-to-cart button without click counter
+page: HomePage
+page_path: app/page.tsx
+task: Verify the Add to Cart button functions correctly without displaying click counter
+  information
+steps:
+- Navigate to the homepage
+- Select a color option
+- Select a size option
+- Click the 'Add to cart' button
+- Verify the button enters a loading state
+- Verify there is no click counter displayed below the button
+- Verify user is redirected to the cart page
+- Verify the URL is /cart
+expected_result: User should be able to add product to cart without seeing any click
+  count information

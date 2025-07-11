@@ -7,5 +7,7 @@ steps:
 - Verify product images are visible in the gallery
 - Verify product name and price are displayed
 - Verify product description is visible
+- Click the 'Add to Cart' button
+- Verify redirection to the cart page without seeing click counter information
 expected_result: Product details including images, name, price, and description are
-  displayed correctly
+  displayed correctly without click counter functionality

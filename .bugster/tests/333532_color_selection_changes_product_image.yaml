@@ -7,4 +7,7 @@ steps:
 - Observe the initial product image
 - Select a different color option
 - Verify the product image changes to show the product in the selected color
-expected_result: Product image changes to reflect the selected color
+- Click the 'Add to cart' button
+- Verify user is redirected to the cart page without seeing click count information
+expected_result: Product image changes to reflect the selected color without showing
+  click count information

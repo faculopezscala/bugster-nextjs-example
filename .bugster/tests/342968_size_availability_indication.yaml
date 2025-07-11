@@ -10,5 +10,9 @@ steps:
 - Verify that unavailable sizes cannot be selected
 - Select an available size
 - Verify it can be selected successfully
+- Click the 'Add to cart' button
+- Verify that button transitions to loading state
+- Verify navigation redirects to the cart page without showing a click counter
 expected_result: Available sizes are selectable while unavailable sizes are disabled
-  or marked
+  or marked, and selection of available size allows direct addition to cart without
+  displaying click counter

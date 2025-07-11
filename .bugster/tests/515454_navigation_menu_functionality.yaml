@@ -8,5 +8,6 @@ steps:
 - Click on the brand logo/name
 - Verify it navigates to the homepage
 - Click on the cart icon
-- Verify it navigates to the cart page
-expected_result: All navigation links direct to the correct pages
+- Verify it navigates to the cart page without showing any click counter
+expected_result: All navigation links direct to the correct pages without displaying
+  click count

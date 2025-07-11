@@ -11,20 +11,29 @@ export function AddToCart() {
   const router = useRouter();
   const { color, size } = useProductDetailPageContext();
   const [isLoading, setIsLoading] = useState(false);
+  const [clickCount, setClickCount] = useState(0);
 
   useEffect(() => {
     track('add_to_cart:viewed');
   }, []);
 
   return (
-    <AddToCartButton
-      isLoading={isLoading}
-      onClick={async () => {
-        setIsLoading(true);
-        track('add_to_cart:clicked');
-        await addToCart({ id: 'shirt', color, size, quantity: 1 });
-        router.push('/cart');
-     }}
-    />
+    <div className="space-y-2">
+      <AddToCartButton
+        isLoading={isLoading}
+        onClick={async () => {
+          setIsLoading(true);
+          setClickCount(prev => prev + 1);
+          track('add_to_cart:clicked');
+          await addToCart({ id: 'shirt', color, size, quantity: 1 });
+          router.push('/cart');
+       }}
+      />
+      {clickCount > 0 && (
+        <div className="text-sm text-gray-600 text-center">
+          Button clicked {clickCount} times
+        </div>
+      )}
+    </div>
   );
 } 

@@ -1,0 +1,11 @@
+name: Empty cart messaging
+page: cart
+page_path: app/cart/page.tsx
+task: Verify appropriate messaging is displayed when cart is empty
+steps:
+- Navigate to the cart page with an empty cart
+- Verify empty cart message is displayed
+- Verify there is a 'Continue Shopping' link or button
+- Click on 'Continue Shopping'
+- Verify user is redirected to the homepage
+expected_result: Empty cart message is displayed with option to continue shopping

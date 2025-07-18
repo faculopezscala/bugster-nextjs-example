@@ -1,0 +1,12 @@
+name: Summer sale banner visibility and interaction
+page: /
+page_path: app/page.tsx
+task: Verify the summer sale banner is visible and interactive
+steps:
+- Navigate to the homepage
+- Locate the summer sale banner
+- Verify sale information is correctly displayed
+- Click on any buttons or links in the banner
+- Verify redirection to the cart page with URL /cart
+expected_result: Summer sale banner displays correctly and redirects to cart page
+  when interacted with

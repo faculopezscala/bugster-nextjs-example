@@ -1,0 +1,13 @@
+name: Navigation menu functionality
+page: /
+page_path: app/page.tsx
+task: Verify navigation menu links work correctly
+steps:
+- Navigate to the homepage
+- Locate the navigation menu
+- Click on the brand logo/name
+- Verify it navigates to the homepage
+- Click on the cart icon
+- Verify it navigates to the cart page without showing any click counter
+expected_result: All navigation links direct to the correct pages without displaying
+  click count

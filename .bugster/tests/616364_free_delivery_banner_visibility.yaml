@@ -1,0 +1,11 @@
+name: Free delivery banner visibility
+page: /
+page_path: app/page.tsx
+task: Verify the free delivery banner is visible on the homepage
+steps:
+- Navigate to the homepage
+- Observe the top section of the page
+- Verify the free delivery banner is visible
+- Verify the banner contains the correct delivery information
+expected_result: Free delivery banner is displayed at the top of the page with correct
+  information

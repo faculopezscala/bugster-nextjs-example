@@ -4,7 +4,11 @@ page_path: app/page.tsx
 task: Verify users can navigate to cart page from the navigation menu
 steps:
 - Navigate to the homepage
-- Click on the cart icon in the navigation bar
-- Verify redirect to cart page
+- Select a color option
+- Select a size option
+- Click the 'Add to cart' button
+- Verify automatic redirect to cart page
 - Verify the URL is /cart
-expected_result: User is redirected to the cart page
+- Verify there is no click counter displayed
+expected_result: User is redirected to the cart page directly after adding product
+  to cart

@@ -1,0 +1,13 @@
+name: Error handling for adding to cart without selecting options
+page: /
+page_path: app/page.tsx
+task: Verify proper error handling when adding to cart without required selections
+steps:
+- Navigate to the homepage
+- Do not select any color option
+- Do not select any size option
+- Click the 'Add to cart' button
+- Verify no error message appears
+- Verify user is redirected to the '/cart' page
+expected_result: User is redirected to the cart page without any error notification,
+  even when attempting to add product without selecting required options

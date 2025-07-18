@@ -1,0 +1,18 @@
+name: Size availability indication
+page: /
+page_path: app/page.tsx
+task: Verify size availability is correctly indicated
+steps:
+- Navigate to the homepage
+- Locate the size picker section
+- Observe which sizes are marked as available or unavailable
+- Attempt to select an unavailable size
+- Verify that unavailable sizes cannot be selected
+- Select an available size
+- Verify it can be selected successfully
+- Click the 'Add to cart' button
+- Verify that button transitions to loading state
+- Verify navigation redirects to the cart page without showing a click counter
+expected_result: Available sizes are selectable while unavailable sizes are disabled
+  or marked, and selection of available size allows direct addition to cart without
+  displaying click counter

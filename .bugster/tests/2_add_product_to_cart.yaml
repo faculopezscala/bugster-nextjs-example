@@ -7,5 +7,6 @@ steps:
 - Select a color option
 - Select a size option
 - Click the 'Add to cart' button
-- Verify success notification appears
-expected_result: Product is added to cart and success notification appears
+- Verify redirection to the cart page
+- Verify the URL is /cart
+expected_result: Product is added to cart and user is redirected to the cart page

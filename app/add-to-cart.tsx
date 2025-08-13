@@ -18,6 +18,7 @@ export function AddToCart() {
 
   return (
     <AddToCartButton
+      // disabled={true}
       isLoading={isLoading}
       onClick={async () => {
         setIsLoading(true);

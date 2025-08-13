@@ -1,8 +1,6 @@
 {
-  "status": "completed",
-  "started_at": "2025-07-11T15:00:51.174589",
+  "status": "running",
+  "started_at": "2025-08-13T11:34:39.300772",
   "version": "1.0",
-  "completed": true,
-  "completed_at": "2025-07-11T15:01:36.816131",
-  "duration_seconds": 45.641555
+  "completed": false
 }

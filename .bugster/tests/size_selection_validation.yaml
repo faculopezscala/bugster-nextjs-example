@@ -6,6 +6,7 @@ steps:
 - Navigate to the homepage
 - Select a color for the product
 - Do not select a size
-- Click the 'Add to cart' button
-- Verify an error message appears indicating size selection is required
-expected_result: Error message appears if attempting to add to cart without size selection
+- Verify the 'Add to cart' button is disabled
+- Select a size for the product
+- Verify the 'Add to cart' button becomes enabled
+expected_result: The 'Add to cart' button is disabled when no size is selected

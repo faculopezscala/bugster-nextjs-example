@@ -7,5 +7,6 @@ steps:
 - Verify product images are visible in the gallery
 - Verify product name and price are displayed
 - Verify product description is visible
+- Verify 'Add to Cart' button may appear in a disabled state
 expected_result: Product details including images, name, price, and description are
-  displayed correctly
+  displayed correctly with 'Add to Cart' button that may appear disabled

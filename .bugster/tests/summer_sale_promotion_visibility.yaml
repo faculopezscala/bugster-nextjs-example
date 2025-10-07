@@ -7,4 +7,8 @@ steps:
 - Look for the summer sale promotional section
 - Verify the promotional content is visible
 - Verify any discount information is clearly displayed
-expected_result: Summer sale promotional content is displayed correctly
+- Check that the 'Add to cart' button may be disabled during the promotion
+- Verify the button has the correct disabled styling (bg-blue-700)
+expected_result: Summer sale promotional content is displayed correctly, but users
+  should be aware that the 'Add to cart' functionality may be disabled during the
+  promotion

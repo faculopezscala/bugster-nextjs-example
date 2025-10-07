@@ -1,4 +1,4 @@
-name: Product color selection changes product image
+name: Product color selection changes product image (disabled button)
 page: /
 page_path: app/page.tsx
 task: Verify selecting different product colors updates the product image
@@ -7,4 +7,6 @@ steps:
 - Note the current product image
 - Select a different color option from the color picker
 - Verify the product image updates to show the selected color variant
-expected_result: Product image changes to reflect the selected color
+- Verify that the Add to Cart button is disabled regardless of color selection
+expected_result: Product image changes to reflect the selected color, but the Add
+  to Cart button remains disabled

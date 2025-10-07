@@ -1,0 +1,231 @@
+{
+  "app/cart/page.tsx": {
+    "path": "app/cart/page.tsx",
+    "imports": {
+      "@/app/cart/order-summary": {
+        "path": "app/cart/order-summary.tsx",
+        "imports": {
+          "@/components/shopping-cart/order-summary-section": {
+            "path": "components/shopping-cart/order-summary-section.tsx",
+            "imports": {
+              "@/lib/actions": {
+                "path": "lib/actions.ts",
+                "imports": {
+                  "@/components/utils/cart-types": {
+                    "path": "components/utils/cart-types.ts",
+                    "imports": {},
+                    "import_count": 0
+                  },
+                  "./get-cart-id": {
+                    "path": "lib/get-cart-id.ts",
+                    "imports": {},
+                    "import_count": 0
+                  }
+                },
+                "import_count": 2
+              }
+            },
+            "import_count": 1
+          },
+          "./proceed-to-checkout": {
+            "path": "app/cart/proceed-to-checkout.tsx",
+            "imports": {
+              "@/components/shopping-cart/proceed-to-checkout-button": {
+                "path": "components/shopping-cart/proceed-to-checkout-button.tsx",
+                "imports": {},
+                "import_count": 0
+              }
+            },
+            "import_count": 1
+          }
+        },
+        "import_count": 2
+      },
+      "@/components/main": {
+        "path": "components/main.tsx",
+        "imports": {},
+        "import_count": 0
+      },
+      "@/components/shopping-cart/shopping-cart": {
+        "path": "components/shopping-cart/shopping-cart.tsx",
+        "imports": {
+          "@/lib/actions": {
+            "path": "lib/actions.ts",
+            "imports": {},
+            "circular": true
+          },
+          "./shopping-cart-list": {
+            "path": "components/shopping-cart/shopping-cart-list.tsx",
+            "imports": {
+              "motion/react": {
+                "unresolved": true,
+                "path": "motion/react"
+              }
+            },
+            "import_count": 1
+          },
+          "./shopping-cart-item": {
+            "path": "components/shopping-cart/shopping-cart-item.tsx",
+            "imports": {
+              "@/components/utils/cart-types": {
+                "path": "components/utils/cart-types.ts",
+                "imports": {},
+                "circular": true
+              },
+              "@/components/utils/images": {
+                "path": "components/utils/images.ts",
+                "imports": {},
+                "import_count": 0
+              },
+              "motion/react": {
+                "unresolved": true,
+                "path": "motion/react"
+              },
+              "./shopping-cart-remove-button": {
+                "path": "components/shopping-cart/shopping-cart-remove-button.tsx",
+                "imports": {
+                  "@/lib/actions": {
+                    "path": "lib/actions.ts",
+                    "imports": {},
+                    "circular": true
+                  },
+                  "motion/react": {
+                    "unresolved": true,
+                    "path": "motion/react"
+                  },
+                  "@/components/utils/cart-types": {
+                    "path": "components/utils/cart-types.ts",
+                    "imports": {},
+                    "circular": true
+                  }
+                },
+                "import_count": 3
+              }
+            },
+            "import_count": 4
+          }
+        },
+        "import_count": 3
+      }
+    },
+    "import_count": 3
+  },
+  "app/page.tsx": {
+    "path": "app/page.tsx",
+    "imports": {
+      "@/app/summer-sale": {
+        "path": "app/summer-sale.tsx",
+        "imports": {
+          "@/components/banners/summer-sale-banner": {
+            "path": "components/banners/summer-sale-banner.tsx",
+            "imports": {},
+            "import_count": 0
+          }
+        },
+        "import_count": 1
+      },
+      "@/components/image-gallery": {
+        "path": "components/image-gallery.tsx",
+        "imports": {
+          "@/components/utils/images": {
+            "path": "components/utils/images.ts",
+            "imports": {},
+            "import_count": 0
+          },
+          "@/components/utils/product-detail-page-context": {
+            "path": "components/utils/product-detail-page-context.tsx",
+            "imports": {},
+            "import_count": 0
+          }
+        },
+        "import_count": 2
+      },
+      "@/components/product-detail-page/product-details": {
+        "path": "components/product-detail-page/product-details.tsx",
+        "imports": {},
+        "import_count": 0
+      },
+      "@/components/product-detail-page/product-header": {
+        "path": "components/product-detail-page/product-header.tsx",
+        "imports": {
+          "./product-reviews": {
+            "path": "components/product-detail-page/product-reviews.tsx",
+            "imports": {},
+            "import_count": 0
+          }
+        },
+        "import_count": 1
+      },
+      "@/app/add-to-cart": {
+        "path": "app/add-to-cart.tsx",
+        "imports": {
+          "@/lib/actions": {
+            "path": "lib/actions.ts",
+            "imports": {
+              "@/components/utils/cart-types": {
+                "path": "components/utils/cart-types.ts",
+                "imports": {},
+                "import_count": 0
+              },
+              "./get-cart-id": {
+                "path": "lib/get-cart-id.ts",
+                "imports": {},
+                "import_count": 0
+              }
+            },
+            "import_count": 2
+          },
+          "@/components/utils/product-detail-page-context": {
+            "path": "components/utils/product-detail-page-context.tsx",
+            "imports": {},
+            "circular": true
+          },
+          "@/components/product-detail-page/add-to-cart-button": {
+            "path": "components/product-detail-page/add-to-cart-button.tsx",
+            "imports": {
+              "motion/react": {
+                "unresolved": true,
+                "path": "motion/react"
+              }
+            },
+            "import_count": 1
+          }
+        },
+        "import_count": 3
+      },
+      "@/components/product-detail-page/color-picker": {
+        "path": "components/product-detail-page/color-picker.tsx",
+        "imports": {
+          "@/components/utils/product-detail-page-context": {
+            "path": "components/utils/product-detail-page-context.tsx",
+            "imports": {},
+            "circular": true
+          }
+        },
+        "import_count": 1
+      },
+      "@/components/product-detail-page/size-picker": {
+        "path": "components/product-detail-page/size-picker.tsx",
+        "imports": {
+          "@/components/utils/product-detail-page-context": {
+            "path": "components/utils/product-detail-page-context.tsx",
+            "imports": {},
+            "circular": true
+          }
+        },
+        "import_count": 1
+      },
+      "@/components/utils/product-detail-page-context": {
+        "path": "components/utils/product-detail-page-context.tsx",
+        "imports": {},
+        "circular": true
+      },
+      "@/components/main": {
+        "path": "components/main.tsx",
+        "imports": {},
+        "import_count": 0
+      }
+    },
+    "import_count": 9
+  }
+}

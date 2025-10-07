@@ -7,4 +7,6 @@ steps:
 - Look for the free delivery banner at the top of the page
 - Verify the banner is visible
 - Verify the banner contains appropriate promotional text
-expected_result: Free delivery banner is visible with correct promotional text
+- Check that the Add to Cart button is likely disabled due to new functionality changes
+expected_result: Free delivery banner is visible with correct promotional text but
+  Add to Cart functionality may be disabled

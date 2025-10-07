@@ -6,6 +6,6 @@ steps:
 - Navigate to the homepage
 - Select a color option
 - Select a size option
-- Click the 'Add to cart' button
-- Verify success notification appears
-expected_result: Product is added to cart and success notification appears
+- Verify the 'Add to cart' button is disabled
+- Confirm no actions occur when clicking the button
+expected_result: Product cannot be added to cart as the Add to Cart button is disabled

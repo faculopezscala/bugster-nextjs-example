@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "timestamp": 1755095686.943681,
+    "timestamp": 1759504833.850425,
     "version": 2,
     "git": {
       "branch": "demo-bugster",
-      "commit": "e3cf3692d82ecbecd44e6b1e84f166c59e830c6f"
+      "commit": "06141b5a86016a7dc387a5db9c0e76136d439ef7"
     }
   },
   "data": {
@@ -27,11 +27,11 @@
         "relative_dir_path": "app",
         "content": "import { VercelToolbar } from '@vercel/toolbar/next';\nimport { Analytics } from '@vercel/analytics/next';\nimport type { Metadata } from 'next';\nimport { Toaster } from 'sonner';\n\nimport './globals.css';\nimport { FreeDelivery } from '@/app/free-delivery';\nimport { Footer } from '@/components/footer';\nimport { Navigation } from '@/components/navigation';\n\nexport const metadata: Metadata = {\n  title: 'Shirt Shop Example',\n  description: 'A shirt shop example for Ecommerce',\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  const showFreeDeliveryBanner = true;\n\n  return (\n    <html lang=\"en\">\n      <body className=\"antialiased\">\n        <div className=\"bg-white\">\n          <FreeDelivery show={showFreeDeliveryBanner} />\n          <Navigation />\n          {children}\n          <Footer />\n        </div>\n        <Toaster />\n        <Analytics />\n        <VercelToolbar />\n      </body>\n    </html>\n  );\n}\n",
         "components": [
-          "FreeDelivery",
           "Footer",
           "Toaster",
-          "Analytics",
           "Navigation",
+          "FreeDelivery",
+          "Analytics",
           "VercelToolbar"
         ]
       }
@@ -44,9 +44,9 @@
           "function"
         ],
         "components": [
-          "ShoppingCart",
+          "OrderSummary",
           "Main",
-          "OrderSummary"
+          "ShoppingCart"
         ],
         "hasParams": false,
         "hasForm": false,
@@ -61,15 +61,15 @@
           "function"
         ],
         "components": [
-          "Main",
-          "ProductHeader",
-          "SummerSale",
           "ColorPicker",
+          "ProductDetailPageProvider",
+          "SummerSale",
           "ProductDetails",
-          "SizePicker",
-          "AddToCart",
+          "ProductHeader",
+          "Main",
           "ImageGallery",
-          "ProductDetailPageProvider"
+          "AddToCart",
+          "SizePicker"
         ],
         "hasParams": false,
         "hasForm": false,

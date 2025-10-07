@@ -1,0 +1,11 @@
+name: Size selection validation
+page: /
+page_path: app/page.tsx
+task: Verify users must select a size before adding to cart
+steps:
+- Navigate to the homepage
+- Select a color for the product
+- Do not select a size
+- Click the 'Add to cart' button
+- Verify an error message appears indicating size selection is required
+expected_result: Error message appears if attempting to add to cart without size selection

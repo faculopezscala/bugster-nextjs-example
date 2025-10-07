@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "timestamp": 1755095682118,
+    "timestamp": 1759504833795,
     "version": 2,
     "git": {
       "branch": "demo-bugster",
-      "commit": "e3cf3692d82ecbecd44e6b1e84f166c59e830c6f"
+      "commit": "06141b5a86016a7dc387a5db9c0e76136d439ef7"
     }
   },
   "data": {
@@ -14,6 +14,11 @@
         "name": "Next.js",
         "dir_path": "/Users/facundolopezscala/coding-repos/demo-bugster-ecommerce/bugster-nextjs-example/"
       }
-    ]
+    ],
+    "commands": {
+      "test": {
+        "firstExecuted": true
+      }
+    }
   }
 }

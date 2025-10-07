@@ -1,0 +1,10 @@
+name: Summer sale promotion visibility
+page: /
+page_path: app/page.tsx
+task: Verify the summer sale promotion is visible on the homepage
+steps:
+- Navigate to the homepage
+- Look for the summer sale promotional section
+- Verify the promotional content is visible
+- Verify any discount information is clearly displayed
+expected_result: Summer sale promotional content is displayed correctly

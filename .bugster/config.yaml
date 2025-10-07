@@ -5,7 +5,7 @@
 # Project Information
 project_name: bugster-nextjs-example
 project_id: 2NouLhC7FZCaDcF9BTXp
-base_url: "http://localhost:3001/"
+base_url: "http://localhost:3002/"
 
 # Project Authentication
 credentials:

@@ -1,0 +1,10 @@
+name: Navigation menu functionality
+page: /
+page_path: app/page.tsx
+task: Verify all navigation menu links work correctly
+steps:
+- Navigate to the homepage
+- Identify all clickable links in the navigation menu
+- Click on each navigation link
+- Verify each link redirects to the expected page
+expected_result: Navigation links direct users to appropriate pages

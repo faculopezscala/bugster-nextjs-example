@@ -1,0 +1,10 @@
+name: Empty cart state display
+page: cart
+page_path: app/cart/page.tsx
+task: Verify appropriate message is shown when cart is empty
+steps:
+- Ensure cart is empty (remove all items if necessary)
+- Navigate to the cart page
+- Verify an empty cart message is displayed
+- Verify there is a link or button to return to shopping
+expected_result: Empty cart message is displayed with option to continue shopping

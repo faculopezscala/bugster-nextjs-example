@@ -1,0 +1,21 @@
+{
+  "2NouLhC7FZCaDcF9BTXp": {
+    "config": {
+      "project_id": "2NouLhC7FZCaDcF9BTXp",
+      "x_vercel_protection_bypass": null,
+      "preferences": {
+        "tests": {
+          "always_run": null,
+          "limit": null,
+          "headless": null,
+          "silent": null,
+          "verbose": null,
+          "only_affected": null,
+          "parallel": null,
+          "output": null
+        }
+      }
+    },
+    "timestamp": 1759504912.48334
+  }
+}

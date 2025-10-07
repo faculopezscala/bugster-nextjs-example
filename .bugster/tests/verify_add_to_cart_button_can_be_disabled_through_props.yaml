@@ -1,0 +1,14 @@
+name: Verify Add to Cart button can be disabled through props
+page: Homepage
+page_path: app/page.tsx
+task: Verify that the Add to Cart button can now be disabled through a dedicated prop
+steps:
+- Navigate to the homepage
+- Observe the Add to Cart button on the product detail section
+- Verify the button appears visually disabled (has the disabled:bg-blue-700 styling)
+- Try clicking the Add to Cart button
+- Verify no action occurs when clicking the disabled button
+- Verify the button remains disabled even after selecting product options like color
+  and size
+expected_result: The Add to Cart button should display in a disabled state when the
+  disabled prop is passed to it

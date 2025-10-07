@@ -5,6 +5,9 @@ task: Verify all navigation menu links work correctly
 steps:
 - Navigate to the homepage
 - Identify all clickable links in the navigation menu
-- Click on each navigation link
-- Verify each link redirects to the expected page
-expected_result: Navigation links direct users to appropriate pages
+- Verify any disabled navigation links have the appropriate styling (disabled:bg-blue-700
+  class)
+- Click on each enabled navigation link
+- Verify each enabled link redirects to the expected page
+expected_result: Navigation links direct users to appropriate pages, with disabled
+  links properly indicated
